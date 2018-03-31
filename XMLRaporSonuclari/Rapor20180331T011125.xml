@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<openports>
+  <IPAdres IP="10.3.205.49">
+    <port no="135">
+      <protocol>tcp</protocol>
+      <state>open</state>
+      <service>epmap</service>
+    </port>
+    <port no="139">
+      <protocol>tcp</protocol>
+      <state>open</state>
+      <service>netbios-ssn</service>
+    </port>
+    <port no="445">
+      <protocol>tcp</protocol>
+      <state>open</state>
+      <service>microsoft-ds</service>
+    </port>
+  </IPAdres>
+</openports>
