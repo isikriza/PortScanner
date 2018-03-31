@@ -157,4 +157,4 @@ param(
 	$xmlWriter.Close()
 	Rename-Item -Path "$PSScriptRoot\..\TXTRaporSonuclari\file.txt" -NewName "Rapor$(((get-date).ToUniversalTime()).ToString("yyyyMMddThhmmss")).txt"
 	Rename-Item -Path "$PSScriptRoot\..\XMLRaporSonuclari\file.xml" -NewName "Rapor$(((get-date).ToUniversalTime()).ToString("yyyyMMddThhmmss")).xml"
-	Write-Host("HEDEF MAKINANIN ACIK PORTLARI BULUNDU VE RAPORLANDI.`n")
+	Write-Host("ARAMA TAMAMLANDI.`n")
