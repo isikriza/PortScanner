@@ -95,7 +95,7 @@ param(
 	$xmlWriter.WriteStartElement("IPAdres")
 	$xmlWriter.WriteAttributeString("IP", $IPAdres)
 	
-	"'IP = $IPAdres' Adresine ait acik portlar!" | Out-File "..\TXTRaporSonuclari\file.txt" -Append
+	"'IP = $IPAdres' Adresine ait acik portlar!" | Out-File "$PSScriptRoot\..\TXTRaporSonuclari\file.txt" -Append
 	
 	while ($JobsList.Count -gt 0) {
 		$JobProcess = $JobsList | Where-Object -FilterScript {$_.Result.IsCompleted}
